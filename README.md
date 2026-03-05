@@ -1,42 +1,53 @@
 # ETF Portfolio Optimization Using Risk-Return Models
 
 ## Overview
-This project develops a data-driven framework for constructing ETF portfolios using optimization techniques rather than traditional rule-based allocation methods.
+This project explores data-driven portfolio construction using optimization techniques instead of traditional rule-based allocations such as the 60/40 portfolio.
 
-Using historical ETF data across equities, bonds, commodities, and international markets, multiple portfolio optimization models were implemented and compared.
+Using historical ETF return data, multiple optimization approaches were developed to evaluate how portfolio allocations change under different investment objectives.
 
 ## Data
-The dataset includes 3 years of historical monthly returns for 8 ETFs representing diversified asset classes:
-- SPY (S&P 500)
-- QQQ (Nasdaq 100)
-- IWM (Russell 2000)
-- TLT (Long-term Treasury bonds)
-- SHY (Short-term Treasury bonds)
-- GLD (Gold ETF)
-- VXUS (International equities)
-- EFA (Developed international equities)
+The dataset includes 3 years of monthly return data for 8 ETFs representing major asset classes:
 
-## Methods
-The project evaluates five optimization approaches:
+- SPY – S&P 500
+- QQQ – Nasdaq 100
+- IWM – Russell 2000
+- TLT – Long-term Treasury bonds
+- SHY – Short-term Treasury bonds
+- GLD – Gold ETF
+- VXUS – International equities
+- EFA – Developed international markets
 
-- Return maximization with a risk constraint
-- Risk minimization with a return constraint
-- Mean-variance portfolio optimization
-- Minimum variance portfolio using covariance matrix
-- Scenario-based robust optimization to improve worst-case performance
+These ETFs provide exposure to equities, fixed income, commodities, and international markets.
 
-## Results
-The analysis demonstrates how portfolio allocations change depending on investment objectives and risk tolerance.
+## Optimization Models
+Five portfolio strategies were evaluated:
 
-Return-focused models favored higher-growth ETFs (SPY, QQQ), while risk-minimizing models shifted toward stable assets such as SHY and GLD.
+1. Maximize expected return with a risk constraint
+2. Minimize risk with a return requirement
+3. Mean-variance optimization
+4. Minimum variance portfolio using covariance matrix
+5. Scenario-based optimization to improve worst-case monthly performance
 
-A blended portfolio was recommended for moderate-risk investors:
+## Key Findings
+Different objectives produce significantly different portfolio allocations:
+
+- Return-focused models allocate more heavily to SPY and QQQ
+- Risk-minimizing models shift toward stable assets like SHY and GLD
+- Scenario-based optimization improves worst-case performance
+
+Recommended moderate-risk allocation:
+
 - 40% SHY
 - 31% GLD
 - 15% SPY
 - 14% QQQ
 
+## My Contributions
+- Implemented portfolio optimization models
+- Analyzed risk-return tradeoffs across investment strategies
+- Interpreted results and recommended a balanced ETF allocation
+
 ## Tools
 - Excel
-- Portfolio Optimization
-- Quantitative Analysis
+- Optimization modeling
+- Quantitative analysis
