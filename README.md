@@ -51,3 +51,14 @@ Recommended moderate-risk allocation:
 - Excel
 - Optimization modeling
 - Quantitative analysis
+
+
+## My Contributions
+
+This project was completed as part of the MS Business Analytics program at Arizona State University.
+
+My contributions included:
+- analyzing ETF return data
+- evaluating portfolio optimization strategies
+- interpreting risk-return tradeoffs
+- recommending a balanced portfolio allocation
